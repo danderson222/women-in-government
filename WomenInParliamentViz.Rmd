@@ -229,7 +229,7 @@ top.dumbbell.plot <- ggplot(df.top.dumbbell, aes(y = country_name, x = yr1997, x
     y = "Country",
     x = "Percentage of Women in Government",
     title = "20 Countries with the Highest Proportion of Women \nin Government as of 2020",
-    subtitle = "Despite the higher income countries showing larger proportions of women in government, only 1 of <br>the top 10 countries in <span style = 'color:darkgreen'><b>2020</b></span> is from Europe and the top three countries are Rwanda, Cuba and Bolivia. <br>Definitely different than most people would expect!"
+    subtitle = "Despite the higher income countries showing larger proportions of women in government, only 1 of <br>the top 10 countries in <span style = 'color:darkgreen'><b>2020</b></span> is from Europe and the top three countries are Rwanda, Cuba and Bolivia. <br>A huge increase from <span style = 'color:darkred'><b>1997</b></span>, and definitely a different result than most people would expect!"
   )+
   scale_x_continuous(breaks = seq(from = 0, to = 60, by = 10)) +
   scale_y_discrete(limits = rev(levels(df.top.dumbbell$country_name))) +
